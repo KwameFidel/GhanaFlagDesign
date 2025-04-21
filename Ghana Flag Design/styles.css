@@ -1,0 +1,54 @@
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .flag-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .pole {
+    width: 10px;
+    height: 210px;
+    background-color: #444;
+    margin-right: 10px;
+  }
+  
+  .flag {
+    width: 300px;
+    height: 210px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  
+  .stripe {
+    height: 33.33%;
+    width: 100%;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .yellow {
+    background-color: yellow;
+    position: relative;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .star {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: black;
+  }
+  
